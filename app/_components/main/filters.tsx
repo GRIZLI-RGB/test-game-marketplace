@@ -42,7 +42,7 @@ export default function Filters() {
 				</Button>
 			</section>
 			<ModalWindow
-				visible={!reportRodal}
+				visible={reportRodal}
 				onClose={() => setReportRodal(false)}
 			>
 				<h6 className="font-semibold text-[20px] leading-[28px] mb-6">

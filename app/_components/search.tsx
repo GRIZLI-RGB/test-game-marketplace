@@ -8,7 +8,7 @@ interface Props {
 	placeholder?: string;
 	maxWidth?: number;
 	searchIcon?: "start" | "end";
-	size: "sm" | "md" | "lg";
+	size?: "sm" | "md" | "lg";
 }
 
 export default function Search({
